@@ -8,6 +8,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 export EDITOR='vim'
+export VISUAL="$EDITOR"
 alias mux="tmuxinator"
 
 # tmux - set 10ms for key sequences
